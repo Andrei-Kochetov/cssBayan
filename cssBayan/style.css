@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+ 
 
 .wrapper{
     margin: 0 auto;
@@ -17,6 +18,7 @@ h1{
     font-size: 30px;
     text-align: center;
 }
+
 
 .item{
     position: relative;
@@ -122,16 +124,20 @@ span{
     .wrapper{
         width: 90%;
     }
+
     .plus{
         font-size: 28px;
     }
+
     .flex{
         height: 70px;
         text-align: left;
     }
+    
     label{
        font-size: 24px; 
-    }
+    }  
+
     input:checked ~ label img{
         max-height: 200px;
     }
