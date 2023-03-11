@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 .wrapper{
     margin: 0 auto;
     width: 1140px;
@@ -16,24 +17,30 @@ h1{
     font-size: 30px;
     text-align: center;
 }
+
 .item{
     position: relative;
 }
+
 input{
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
 }
+
 input:checked ~ label img{
     height: 400px
 }
+
 input:checked ~ label{
     color:black;
 }
+
 input:checked ~ label .plus{
     transform: rotate(45deg) ;
 }
+
 label{
     height: 30px;
     font-size: 20px;
@@ -41,13 +48,12 @@ label{
     text-align: center;
     font-size: 36px;
 }
+
 .flex{
     display: flex;
     justify-content: space-between;
     height: 50px;
 }
-
-
 
 img:active {
     opacity: 0.6;
@@ -66,11 +72,13 @@ img{
     max-width: 90%;
     transition: .5s all;
 }
+
 span{
     display: block;
     margin: 15px 0;
     border-top: 1px solid rgb(224, 221, 221);
 }
+
 .plus{
     display: none;
     transition: 0.7s all;
