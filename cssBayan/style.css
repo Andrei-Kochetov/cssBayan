@@ -58,7 +58,7 @@ label{
     height: 400px;  
 }
 .item:hover .plus{
-    transform: rotate(45deg) ; 
+    transform: rotate(45deg) translateX(-50%) ; 
 }
 img:active {
     opacity: 0.6;
@@ -74,7 +74,7 @@ img{
     display: block;
     margin: auto;
     height: 0px;
-    max-width: 100%;
+    max-width: 90%;
     transition: .5s all;
 }
 span{
@@ -114,10 +114,21 @@ span{
 
 @media(max-width: 320px){
     .wrapper{
-        width: 95%;
+        width: 90%;
+    }
+    .plus{
+        font-size: 28px;
+    }
+    .flex{
+        height: 70px;
+        text-align: left;
+    }
+    label{
+       font-size: 24px; 
     }
     input:checked ~ label img{
-        height: 200px
+        max-height: 250px;
     }
+
 
 }
